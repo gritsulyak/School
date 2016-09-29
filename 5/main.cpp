@@ -34,7 +34,7 @@ int main(int argc,char** argv)
   // сюда складываем текущий максимум 
   int last_max=-1;
   // bits.count - количество 1ничек в bits; j=5 bits.count=2
-  for(int j=0;bits.count()<n;j++) 
+  for(int j=0;j<(1<<(n));j++) 
   {
     // создание элемента типа bitset проинициализированого значение j
     // т.е
@@ -54,6 +54,6 @@ int main(int argc,char** argv)
   }
 
   std::cout << last_max << "\n";
- 
+  std::cout << (1<<n) << "\n"; 
 }
 
