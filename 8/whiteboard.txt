@@ -1,0 +1,75 @@
+// bool - true processed ok
+// 
+bool function(
+ // input 
+ int argint,
+ // in
+ const vector<int> & argvector,
+ // out 
+ vector<int> & out
+}
+
+struct complex {
+int a1;
+vector<int> a;
+}
+
+complex func2(){
+ complex ret;
+ ret = ...
+ return ret;
+}
+
+int main(){
+  complex ret2 = func2();
+}
+
+vector<int> * argvectorp
+argvectorp->size();
+
+vector<int> & argvector
+argvectorp.size();
+
+vector <int> *vp1,vp2,vp3; // ok
+
+vector <int> vv;
+vector <int> & v = vv;
+
+vp1 = &vv;
+vp2 = &vv;
+vp1->size();
+vp3 = v;
+
+function(argint, ) 
+
+// f(N) = F(f(n-1),f(n-2)..)
+
+MAS[5000] = {-1}
+
+0 1 6
+0 2 9
+..
+0 2499 98
+1 2500 99
+2 2500 1767
+3 2500 443
+..
+2499 2500
+2500 2501
+2501 2502
+...
+0->5000
+N = 5000
+
+f(0, N) = min(f(0,1) + f(1,N), ... f(0,k) + f(k,n)) +  
+
+
+task:
+a[n]=
+1 -5 4 3 27 3 -1 -64 -6 8 11 
+first 3
+last 7
+maxfirst 3
+maxlast 7
+maxval 
+last -5
