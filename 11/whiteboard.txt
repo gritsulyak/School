@@ -1,0 +1,24 @@
+a[0]==*(a+0); // true
+a[1]==*(a+1); // true
+
+i*=10; // i = 10 * i;
+char* a; // char *a;
+
+static int p=12345;
+
+static int j; // â BSS
+
+program abcdef drfetee ... ...
+char **argv = {
+"c:\pathto\program"
+"abcdef",
+"drfetee",
+"tryuiee",
+"opeee",
+"dff"
+}
+
+float f=atof('6');
+int i=atoi('4');
+long long ll = atoll('3');
+strtol('');
