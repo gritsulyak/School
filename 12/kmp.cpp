@@ -1,4 +1,4 @@
-include <iostream>
+#include <iostream>
 #include <vector>
 #include <string>
 using namespace std;
@@ -45,9 +45,21 @@ int main(int argc, char **argv)
   string where; // haystack
 
   cin >> what >> where;
-
-  auto idx = kmp(what, where);
-
-  cout << idx;
+/* 
+  auto pref = prefix("abcdefrtfabcderabv");
+//   auto idx = kmp(what, where);
+  for(auto i:pref)
+    cout << i;
+*/
+  auto pref=prefix(what+"#"+where);
+  
+  for(auto i:pref)
+    cout << i << ":";
+ 
+  auto idx = kmp(what,where);
+  
+  cout << endl << idx << endl;
+ 
   return 0;
 }
+

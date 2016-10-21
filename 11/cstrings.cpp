@@ -18,7 +18,7 @@ int main(int argc, char **argv)
   strcpy(b,a);
   std::cout << b << endl;
 
-   strcpy(a,b);
+//   strcpy(a,b);
   a[1] = '5';
   std::cout << a << endl;
 
