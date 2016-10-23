@@ -1,0 +1,22 @@
+aabcaabcdabcaabcaab
+0100123401001234567
+aaaaa
+
+aabcaaba
+01001231
+
+ababrababhababra
+0012012340123456
+
+aabaaab
+0101223
+
+abcdabcabcdabcdab
+00001231234567456
+
+0. o: prefix(s,i)==k <=> max k : s[1..k]==s[i-k,k]
+1. s[i+1]==s[k+1]=>prefix(s,i+1)==k+1
+2. forall j=(k,i) s[1..j]!=s[i-j..i] так как 0.)
+3. s[1..prefix(s,k)]==s[i-prefix(s,l)..i] 
+
+

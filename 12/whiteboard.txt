@@ -1,0 +1,12 @@
+поиск
+aaab в aaaaaaaaaaaaab
+O(n*m) <= C*(n*m)
+
+roma
+rama
+
+prefix("abdeabafebab")
+  000012100012
+f:  
+
+"abdeabdfebab"
