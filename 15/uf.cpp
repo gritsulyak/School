@@ -5,7 +5,7 @@ using namespace std;
 int id[1000000];
 int32_t N;
 
-void quickUnionUF(int N)
+void init(int N)
 {
   for (int i = 0; i < N; i++)
     id[i] = i;
@@ -23,7 +23,7 @@ bool connected(int p, int q)
   return root(p) == root(q);
 }
 
-void unionf(int p, int q)
+void unite(int p, int q)
 {
   int i = root(p);
   int j = root(q);
@@ -32,12 +32,12 @@ void unionf(int p, int q)
 
 int main(){
   cin >> N;
-  quickUnionUF(N);
+  init(N);
   for(int i=0;i<N;i++)
   {
     int cur;
     cin >> cur;
-    unionf(cur,i);
+    unite(cur,i);
   }
 
   for(int i=0;i<N;i++)

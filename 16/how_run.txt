@@ -1,0 +1,4 @@
+g++ -O3 uf<ID>.cpp -o uf<ID>
+time ./uf<ID>.id < in.txt > out.uf<ID>.txt
+diff out.uf<ID1>.txt out.uf<ID2>.txt
+
