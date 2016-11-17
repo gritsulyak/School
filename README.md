@@ -12,6 +12,7 @@
 Суффиксные и префиксные деревья рассмотрим 23 ноября.
 
 
+---------
 
 (C) Roman T. Gritsulyak 2016-
 My teaching in school related code and slides.
