@@ -1,0 +1,59 @@
+3 7 8 5 2 1 9 5 4
+
+x = 3 q= 8
+i = 0 p= 0
+
+found
+j = 4
+i = 1
+swap {7} and {2}
+3 2 8 5 7 1 9 5 4
+found j=5
+i = 2
+swap {8} and {1}
+3 2 1 5 7 8 9 5 4
+ok  next loop
+swap {3} and {1}
+1 2 3 5 7 8 9 5 4
+retun 2; r = 2
+
+-----------------
+3 7 8 5 2 1 9 5 4
+9 карманов
+_ _ _ _ _ _ _ _ _
+    3   
+
+_ _ _ _ _ _ _ _ _
+    3       7
+
+_ _ _ _ _ _ _ _ _
+    3       7 8 
+
+итд.
+_ _ _ _ _ _ _ _ _
+1 2 3 4 5 6 7 8 9
+
+числа A=1..100
+10- карманов
+массив из 30 элементов
+vector<vector<int>> karmans;
+
+vector<int> out; 
+
+A[i] = 7;
+
+karman_num = 7/(100/10);
+
+karmans[karman_num].push_back(A[i])
+
+int karmanslast[10]; 
+  
+karman - karman 1
+3..5 - karman 2
+6..8 - 
+27..29
+
+
+
+
+

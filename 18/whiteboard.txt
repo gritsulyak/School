@@ -1,0 +1,30 @@
+1) задача о максимумах
+1 3 5 2 3 7 2 6
+1 3 5 5 5 7 7 7 - не работает ( 2 3 -> 5 )
+
+идея с деревом отрезков - отличная log(n)
+
+как сделать за единичку, на подумать.
+
+
+BucketSort(vector<int> a, int min, int max, int buckets = a.size())
+{
+
+vector<vector<int>> bucketv;
+
+// TODO ... create figures in buckets
+// 
+vector<int> out;
+
+for(int i=0; i<bucketv.size(); i++)
+{
+ // ~= 1 element in loop
+ for(int j=0;j<bucketv[i].size();j++)
+ {
+   out.push_back(bucketv[i][j]);
+ }
+}
+
+return out;
+}
+ 
