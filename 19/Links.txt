@@ -1,0 +1,7 @@
+список задач на префиксные деревья
+http://codeforces.com/blog/entry/19524
+
+Алгоритм укконена на c++
+ideone.com/sT8Vd1
+
+

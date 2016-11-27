@@ -1,0 +1,12 @@
+Input: word
+BFBBBFE
+Out
+$
+E$
+F->BBBFE$
+F->E$
+BF->FE$
+BF->BBBFE$
+BB->FE$
+BB->BFE$
+
